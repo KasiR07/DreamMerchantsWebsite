@@ -1,16 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 
-h1, p {
-  /* color: white; */
-}
-
-p {
-  text-align: justify;
-}
-
- #landing-page{
+#landing-page {
   height: 700px;
 }
+
 /*
 
 #about_us{
@@ -37,6 +30,11 @@ p {
 */
 #team {
   background-color: #010015;
+}
+
+.mentors{
+  position: relative;
+  left: 290px;
 }
 
 /* NAVBAR */
@@ -290,10 +288,13 @@ ul {
 
 /* FOOTER */
 /* ABOUT US */
+
+
+
 .aboutUs_img {
-  margin: 30px;
-  height: 300px;
-  width: 300px;
+  margin: 50px;
+  height: 400px;
+  width: 400px;
   border-radius: 100%;
 }
 
@@ -303,7 +304,18 @@ ul {
 
 .about_us_text {
   color: white;
-  display: inline-block;
+  padding: 120px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+font-size: 1.4rem;
+line-height: 29px;
+}
+
+.Heading{
+  text-align: center;
+  font-size: 3.7rem;
+  font-weight: 550;
+  /* margin: 10px; */
 }
 
 /* ABOUT VIT */
@@ -312,6 +324,11 @@ ul {
 }
 
 /* EVENTS */
+/* .longTitle{
+  position: relative;
+  bottom: 20px;
+} */
+
 .events {
   background-color: #1C003B;
 }
@@ -331,30 +348,43 @@ ul {
   background-color: #08001E;
 }
 
-/* LANDING PAGE */
-
-.landing_container{
-  position: relative;
-  top: 250px;
-  margin: 30px;
+.photo_gallery{
+  width: 500px;
+  height: 750px;
 
 }
 
-.landing_page_header{
+.photo_gallery1{
+  width: 500px;
+  height: 900px;
+}
+
+.carousel_photo{
+  padding: 150px;
+}
+
+/* LANDING PAGE */
+.text{
+  margin-right: 8px;
+}
+.landing_container {
+  position: relative;
+  top: 250px;
+  margin: 30px;
+}
+
+.landing_page_header {
   font-size: 6rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
 
-.text{
-
-}
 
 .hidden {
   opacity: 0;
 }
 
-.console-container{
+.console-container {
   font-size: 3rem;
   font-weight: 550;
   font-family: 'Montserrat', sans-serif;
@@ -365,7 +395,6 @@ ul {
 .console-underscore {
   display: inline-block;
   position: relative;
-
   left: 10px;
 }
 
@@ -715,6 +744,7 @@ p {
   margin: auto;
   -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
   overflow: hidden;
+  display: inline-block;
 }
 
 .blog * {
@@ -840,8 +870,13 @@ space {
   }
 }
 
+#sponsors{
+  background-color: black;
+
+}
+
 .slider {
-  background: rgba(0, 0, 0, 0);
+  background-color: black;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0);
   height: 100px;
   margin: auto;
@@ -851,7 +886,7 @@ space {
 }
 
 .slider::before, .slider::after {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;
