@@ -8,9 +8,10 @@ p {
   text-align: justify;
 }
 
-/* #landing-page{
-  margin: 300px 100px 300px;
+ #landing-page{
+  height: 700px;
 }
+/*
 
 #about_us{
   margin: 600px 100px 600px;
@@ -331,14 +332,40 @@ ul {
 }
 
 /* LANDING PAGE */
+
+.landing_container{
+  position: relative;
+  top: 250px;
+  margin: 30px;
+
+}
+
+.landing_page_header{
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+
+}
+
 .hidden {
   opacity: 0;
+}
+
+.console-container{
+  font-size: 3rem;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 7px;
 }
 
 .console-underscore {
   display: inline-block;
   position: relative;
-  top: -0.14em;
+
   left: 10px;
 }
 
