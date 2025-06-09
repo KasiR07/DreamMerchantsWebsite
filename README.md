@@ -48,7 +48,11 @@ The site is a fully responsive, animated, and interactive platform created to:
 
 Dream-Merchants-Website/
 ├── index.html # Main HTML page
+
 ├── styles.css # Custom CSS styles
+
 ├── index.js # JavaScript for interactivity and effects
+
 ├── images/ # All media assets (team, logo, gallery)
+
 └── README.md
